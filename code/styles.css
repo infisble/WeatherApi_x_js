@@ -3,9 +3,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    margin: 0;
-    background: #f0f0f0;
+    margin: 0; /* Відсутність відступів */
+    height: 100vh; /* Висота блоку на всю висоту екрану */
+    background: url('backgroundImg.png') no-repeat center center fixed;
+    background-size: cover; /* Зображення заповнює весь екран */
 }
 
 .container {
